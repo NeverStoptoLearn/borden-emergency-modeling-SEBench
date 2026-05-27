@@ -1,0 +1,14 @@
+{
+  "source": "Borden 3D AdePy reproduction adapter",
+  "flow_model": "uniform regional groundwater flow with pump-induced local perturbation surrogate",
+  "velocity_m_per_day": 0.02777777777777778,
+  "porosity": 0.3,
+  "top_elevation_m": 222.0,
+  "bottom_profile": "see borden_grid.npz",
+  "pump_terms_expected": [
+    "drawdown",
+    "capture_zone",
+    "arrival_time_shift",
+    "well_interference"
+  ]
+}

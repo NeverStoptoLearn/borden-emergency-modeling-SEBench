@@ -1,0 +1,9 @@
+{
+  "equation": "R*dC/dt = div(D grad C) - v dot grad C - lambda*C + source - pump_sink",
+  "alpha_L_m": 10.0,
+  "alpha_TH_m": 0.5,
+  "alpha_TV_m": 0.01,
+  "q_source_m3_per_day": 0.06764533176746916,
+  "source_representation": "finite rectangular source approximated by superposed continuous point sources",
+  "public_kernel_note": "parameters are derived from borden_adepy_reproduction.ipynb; hidden judge uses a private adapter with pump-and-treat perturbations"
+}

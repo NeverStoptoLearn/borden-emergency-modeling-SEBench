@@ -1,0 +1,7 @@
+# Borden Emergency Modeling Package
+
+This package contains one SE-Bench task: `borden_emergency_modeling`.
+
+The work container receives only `borden_emergency_modeling_public_task_bundle.zip`.
+The judge container receives `borden_emergency_modeling_private_judge_bundle.zip`.
+Public bundles contain no `scoring/` or hidden files.

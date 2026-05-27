@@ -1,0 +1,36 @@
+{
+  "scoring_policy": "model-building plus constrained multi-objective dispatch",
+  "precision": "scores rounded to 3 decimal places",
+  "judge_feedback": "score.json contains task_results. Each entry reports score, max_score, pass_rate, and passed. final_plan_subtasks reports robust mass/risk/compliance/cost/robustness and model_gate.",
+  "random_seed": 20260526,
+  "scenario_seed": 20260527,
+  "n_random_benchmark_plans": 45,
+  "n_stress_plans": 15,
+  "n_hidden_scenarios": 4,
+  "plan_families": [
+    "single_well",
+    "two_well_barrier",
+    "staggered",
+    "late_response",
+    "overpump",
+    "pulse_pumping",
+    "off_axis_capture"
+  ],
+  "components": {
+    "problem_formulation": 10,
+    "hidden_pump_treat_model": 25,
+    "constraint_feasibility": 15,
+    "pareto_front_quality": 25,
+    "selected_plan_effect": 20,
+    "workflow_and_report": 5
+  },
+  "model_score": "12 hidden random benchmark plans + 8 hidden stress/OOD plans + 5 peak/mass/log shape aggregate",
+  "optimization_score": "Pareto feasibility, nondominated coverage, spread/hypervolume-like quality, and selected-plan effect are scored separately; hard caps are only for invalid/cheating/interface failure",
+  "curve": {
+    "type": "staged log-power with per-component caps",
+    "alpha": 8.0,
+    "p": 1.6,
+    "knee": 0.55,
+    "early_share": 0.42
+  }
+}

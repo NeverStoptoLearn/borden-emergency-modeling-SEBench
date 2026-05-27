@@ -1,0 +1,3853 @@
+[
+  {
+    "name": "random_00_two_well_barrier",
+    "family": "two_well_barrier",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P011",
+        "x": 610.0,
+        "y": 245.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 14.395,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 355.169,
+            "rate_m3_day": 64.966
+          }
+        ],
+        "rate_m3_day": 64.966,
+        "start_day": 3850.0,
+        "duration_days": 355.169,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_01_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 11.136,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4225.178,
+            "duration_days": 816.459,
+            "rate_m3_day": 44.599
+          }
+        ],
+        "rate_m3_day": 44.599,
+        "start_day": 4225.178,
+        "duration_days": 816.459,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 12.102,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4410.161,
+            "duration_days": 672.737,
+            "rate_m3_day": 50.638
+          }
+        ],
+        "rate_m3_day": 50.638,
+        "start_day": 4410.161,
+        "duration_days": 672.737,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 9.567,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4176.369,
+            "duration_days": 661.171,
+            "rate_m3_day": 34.793
+          }
+        ],
+        "rate_m3_day": 34.793,
+        "start_day": 4176.369,
+        "duration_days": 661.171,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_02_two_well_barrier",
+    "family": "two_well_barrier",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P010",
+        "x": 610.0,
+        "y": 200.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 10.363,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 664.382,
+            "rate_m3_day": 39.766
+          }
+        ],
+        "rate_m3_day": 39.766,
+        "start_day": 3100.0,
+        "duration_days": 664.382,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_03_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 12.872,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4428.906,
+            "duration_days": 687.278,
+            "rate_m3_day": 55.451
+          },
+          {
+            "start_day": 4747.503,
+            "duration_days": 399.246,
+            "rate_m3_day": 37.241
+          }
+        ],
+        "rate_m3_day": 55.451,
+        "start_day": 4428.906,
+        "duration_days": 687.278,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 16.129,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4378.393,
+            "duration_days": 257.166,
+            "rate_m3_day": 50.086
+          },
+          {
+            "start_day": 4693.402,
+            "duration_days": 620.028,
+            "rate_m3_day": 75.805
+          }
+        ],
+        "rate_m3_day": 50.086,
+        "start_day": 4378.393,
+        "duration_days": 257.166,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_04_pulse_pumping",
+    "family": "pulse_pumping",
+    "kind": "random",
+    "actions": []
+  },
+  {
+    "name": "random_05_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 14.822,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4557.098,
+            "duration_days": 496.602,
+            "rate_m3_day": 67.637
+          }
+        ],
+        "rate_m3_day": 67.637,
+        "start_day": 4557.098,
+        "duration_days": 496.602,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P014",
+        "x": 720.0,
+        "y": 245.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 15.117,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4263.622,
+            "duration_days": 718.201,
+            "rate_m3_day": 69.483
+          }
+        ],
+        "rate_m3_day": 69.483,
+        "start_day": 4263.622,
+        "duration_days": 718.201,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 8.475,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4842.296,
+            "duration_days": 236.318,
+            "rate_m3_day": 27.97
+          }
+        ],
+        "rate_m3_day": 27.97,
+        "start_day": 4842.296,
+        "duration_days": 236.318,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 17.92,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4132.568,
+            "duration_days": 424.797,
+            "rate_m3_day": 73.534
+          },
+          {
+            "start_day": 4365.307,
+            "duration_days": 833.902,
+            "rate_m3_day": 86.998
+          }
+        ],
+        "rate_m3_day": 73.534,
+        "start_day": 4132.568,
+        "duration_days": 424.797,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_06_pulse_pumping",
+    "family": "pulse_pumping",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 12.612,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3040.0,
+            "duration_days": 109.901,
+            "rate_m3_day": 42.821
+          },
+          {
+            "start_day": 3207.218,
+            "duration_days": 324.4,
+            "rate_m3_day": 53.825
+          }
+        ],
+        "rate_m3_day": 42.821,
+        "start_day": 3040.0,
+        "duration_days": 109.901,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_07_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 8.574,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 741.222,
+            "rate_m3_day": 28.589
+          }
+        ],
+        "rate_m3_day": 28.589,
+        "start_day": 4680.0,
+        "duration_days": 741.222,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_08_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P003",
+        "x": 360.0,
+        "y": 290.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 20.15,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 229.598,
+            "rate_m3_day": 100.94
+          },
+          {
+            "start_day": 3431.536,
+            "duration_days": 602.075,
+            "rate_m3_day": 62.288
+          }
+        ],
+        "rate_m3_day": 100.94,
+        "start_day": 3100.0,
+        "duration_days": 229.598,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "random_09_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 13.473,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4127.432,
+            "duration_days": 800.982,
+            "rate_m3_day": 42.688
+          },
+          {
+            "start_day": 4535.815,
+            "duration_days": 521.655,
+            "rate_m3_day": 59.208
+          }
+        ],
+        "rate_m3_day": 42.688,
+        "start_day": 4127.432,
+        "duration_days": 800.982,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_10_staggered",
+    "family": "staggered",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 15.817,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 373.056,
+            "rate_m3_day": 73.858
+          },
+          {
+            "start_day": 4667.457,
+            "duration_days": 717.419,
+            "rate_m3_day": 53.509
+          }
+        ],
+        "rate_m3_day": 73.858,
+        "start_day": 4300.0,
+        "duration_days": 373.056,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P003",
+        "x": 360.0,
+        "y": 290.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 21.5,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 834.649,
+            "rate_m3_day": 109.372
+          }
+        ],
+        "rate_m3_day": 109.372,
+        "start_day": 4300.0,
+        "duration_days": 834.649,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_11_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P009",
+        "x": 520.0,
+        "y": 290.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 20.39,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 632.266,
+            "rate_m3_day": 102.436
+          }
+        ],
+        "rate_m3_day": 102.436,
+        "start_day": 3850.0,
+        "duration_days": 632.266,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P001",
+        "x": 360.0,
+        "y": 200.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 15.716,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 775.333,
+            "rate_m3_day": 49.654
+          },
+          {
+            "start_day": 3282.863,
+            "duration_days": 910.857,
+            "rate_m3_day": 73.222
+          }
+        ],
+        "rate_m3_day": 49.654,
+        "start_day": 2920.0,
+        "duration_days": 775.333,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_12_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P006",
+        "x": 440.0,
+        "y": 290.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 20.027,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 546.064,
+            "rate_m3_day": 50.532
+          },
+          {
+            "start_day": 4047.248,
+            "duration_days": 278.567,
+            "rate_m3_day": 100.167
+          },
+          {
+            "start_day": 4303.674,
+            "duration_days": 365.843,
+            "rate_m3_day": 95.064
+          }
+        ],
+        "rate_m3_day": 50.532,
+        "start_day": 3850.0,
+        "duration_days": 546.064,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P001",
+        "x": 360.0,
+        "y": 200.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 14.651,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 672.93,
+            "rate_m3_day": 66.567
+          }
+        ],
+        "rate_m3_day": 66.567,
+        "start_day": 2920.0,
+        "duration_days": 672.93,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "random_13_pulse_pumping",
+    "family": "pulse_pumping",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P003",
+        "x": 360.0,
+        "y": 290.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 18.073,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 301.624,
+            "rate_m3_day": 87.956
+          },
+          {
+            "start_day": 3275.932,
+            "duration_days": 70.136,
+            "rate_m3_day": 72.536
+          }
+        ],
+        "rate_m3_day": 87.956,
+        "start_day": 3100.0,
+        "duration_days": 301.624,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P010",
+        "x": 610.0,
+        "y": 200.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 20.715,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 96.09,
+            "rate_m3_day": 90.765
+          },
+          {
+            "start_day": 3119.811,
+            "duration_days": 326.07,
+            "rate_m3_day": 104.467
+          }
+        ],
+        "rate_m3_day": 90.765,
+        "start_day": 2920.0,
+        "duration_days": 96.09,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 15.218,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3040.0,
+            "duration_days": 230.248,
+            "rate_m3_day": 70.114
+          },
+          {
+            "start_day": 3265.988,
+            "duration_days": 234.806,
+            "rate_m3_day": 31.916
+          }
+        ],
+        "rate_m3_day": 70.114,
+        "start_day": 3040.0,
+        "duration_days": 230.248,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_14_single_well",
+    "family": "single_well",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 12.738,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 582.522,
+            "rate_m3_day": 54.611
+          },
+          {
+            "start_day": 5066.898,
+            "duration_days": 867.238,
+            "rate_m3_day": 32.046
+          }
+        ],
+        "rate_m3_day": 54.611,
+        "start_day": 4680.0,
+        "duration_days": 582.522,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P002",
+        "x": 360.0,
+        "y": 245.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 14.708,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 499.036,
+            "rate_m3_day": 66.923
+          }
+        ],
+        "rate_m3_day": 66.923,
+        "start_day": 3100.0,
+        "duration_days": 499.036,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P005",
+        "x": 440.0,
+        "y": 245.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 21.806,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 526.791,
+            "rate_m3_day": 111.289
+          }
+        ],
+        "rate_m3_day": 111.289,
+        "start_day": 3100.0,
+        "duration_days": 526.791,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 16.027,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 584.651,
+            "rate_m3_day": 27.696
+          },
+          {
+            "start_day": 4164.155,
+            "duration_days": 914.59,
+            "rate_m3_day": 75.168
+          },
+          {
+            "start_day": 4172.855,
+            "duration_days": 454.136,
+            "rate_m3_day": 36.349
+          }
+        ],
+        "rate_m3_day": 27.696,
+        "start_day": 3850.0,
+        "duration_days": 584.651,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_15_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P006",
+        "x": 440.0,
+        "y": 290.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 12.743,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 452.454,
+            "rate_m3_day": 54.641
+          }
+        ],
+        "rate_m3_day": 54.641,
+        "start_day": 3400.0,
+        "duration_days": 452.454,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P009",
+        "x": 520.0,
+        "y": 290.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 21.562,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 684.253,
+            "rate_m3_day": 75.412
+          },
+          {
+            "start_day": 3484.256,
+            "duration_days": 565.8,
+            "rate_m3_day": 109.762
+          },
+          {
+            "start_day": 3869.626,
+            "duration_days": 188.702,
+            "rate_m3_day": 71.024
+          }
+        ],
+        "rate_m3_day": 75.412,
+        "start_day": 3100.0,
+        "duration_days": 684.253,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P004",
+        "x": 440.0,
+        "y": 200.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 9.663,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 943.496,
+            "rate_m3_day": 35.392
+          }
+        ],
+        "rate_m3_day": 35.392,
+        "start_day": 3850.0,
+        "duration_days": 943.496,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 14.537,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 753.529,
+            "rate_m3_day": 65.855
+          },
+          {
+            "start_day": 4679.322,
+            "duration_days": 216.92,
+            "rate_m3_day": 52.46
+          }
+        ],
+        "rate_m3_day": 65.855,
+        "start_day": 4300.0,
+        "duration_days": 753.529,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_16_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 14.628,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4149.599,
+            "duration_days": 926.926,
+            "rate_m3_day": 51.621
+          },
+          {
+            "start_day": 4566.733,
+            "duration_days": 327.378,
+            "rate_m3_day": 66.425
+          }
+        ],
+        "rate_m3_day": 51.621,
+        "start_day": 4149.599,
+        "duration_days": 926.926,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 13.57,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4346.435,
+            "duration_days": 297.717,
+            "rate_m3_day": 59.815
+          }
+        ],
+        "rate_m3_day": 59.815,
+        "start_day": 4346.435,
+        "duration_days": 297.717,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 16.378,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4812.026,
+            "duration_days": 708.688,
+            "rate_m3_day": 77.36
+          }
+        ],
+        "rate_m3_day": 77.36,
+        "start_day": 4812.026,
+        "duration_days": 708.688,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "random_17_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 8.031,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 217.656,
+            "rate_m3_day": 25.193
+          }
+        ],
+        "rate_m3_day": 25.193,
+        "start_day": 3100.0,
+        "duration_days": 217.656,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P007",
+        "x": 520.0,
+        "y": 200.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 9.943,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 869.51,
+            "rate_m3_day": 37.141
+          }
+        ],
+        "rate_m3_day": 37.141,
+        "start_day": 3850.0,
+        "duration_days": 869.51,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P001",
+        "x": 360.0,
+        "y": 200.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 15.535,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 190.064,
+            "rate_m3_day": 72.095
+          }
+        ],
+        "rate_m3_day": 72.095,
+        "start_day": 2920.0,
+        "duration_days": 190.064,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 10.567,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 279.429,
+            "rate_m3_day": 41.046
+          }
+        ],
+        "rate_m3_day": 41.046,
+        "start_day": 3850.0,
+        "duration_days": 279.429,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P003",
+        "x": 360.0,
+        "y": 290.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 12.369,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 336.092,
+            "rate_m3_day": 52.306
+          }
+        ],
+        "rate_m3_day": 52.306,
+        "start_day": 3400.0,
+        "duration_days": 336.092,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P010",
+        "x": 610.0,
+        "y": 200.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 21.74,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 574.61,
+            "rate_m3_day": 42.637
+          },
+          {
+            "start_day": 4676.025,
+            "duration_days": 712.988,
+            "rate_m3_day": 110.873
+          }
+        ],
+        "rate_m3_day": 42.637,
+        "start_day": 4300.0,
+        "duration_days": 574.61,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_18_overpump",
+    "family": "overpump",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P012",
+        "x": 610.0,
+        "y": 290.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 22.835,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 346.183,
+            "rate_m3_day": 117.716
+          }
+        ],
+        "rate_m3_day": 117.716,
+        "start_day": 4300.0,
+        "duration_days": 346.183,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_19_two_well_barrier",
+    "family": "two_well_barrier",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P008",
+        "x": 520.0,
+        "y": 245.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 10.457,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 800.054,
+            "rate_m3_day": 40.355
+          }
+        ],
+        "rate_m3_day": 40.355,
+        "start_day": 3400.0,
+        "duration_days": 800.054,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P010",
+        "x": 610.0,
+        "y": 200.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 13.241,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 646.35,
+            "rate_m3_day": 57.758
+          },
+          {
+            "start_day": 3378.361,
+            "duration_days": 686.266,
+            "rate_m3_day": 30.141
+          }
+        ],
+        "rate_m3_day": 57.758,
+        "start_day": 3100.0,
+        "duration_days": 646.35,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_20_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 17.609,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4763.714,
+            "duration_days": 809.101,
+            "rate_m3_day": 85.058
+          },
+          {
+            "start_day": 4990.0,
+            "duration_days": 291.173,
+            "rate_m3_day": 31.918
+          }
+        ],
+        "rate_m3_day": 85.058,
+        "start_day": 4763.714,
+        "duration_days": 809.101,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 10.578,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4782.145,
+            "duration_days": 438.887,
+            "rate_m3_day": 41.111
+          }
+        ],
+        "rate_m3_day": 41.111,
+        "start_day": 4782.145,
+        "duration_days": 438.887,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "random_21_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 16.566,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4688.905,
+            "duration_days": 923.128,
+            "rate_m3_day": 78.54
+          },
+          {
+            "start_day": 4875.642,
+            "duration_days": 790.852,
+            "rate_m3_day": 56.887
+          },
+          {
+            "start_day": 5080.0,
+            "duration_days": 472.029,
+            "rate_m3_day": 24.305
+          }
+        ],
+        "rate_m3_day": 78.54,
+        "start_day": 4688.905,
+        "duration_days": 923.128,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 10.647,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4460.595,
+            "duration_days": 903.984,
+            "rate_m3_day": 41.543
+          }
+        ],
+        "rate_m3_day": 41.543,
+        "start_day": 4460.595,
+        "duration_days": 903.984,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 13.356,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4125.09,
+            "duration_days": 892.412,
+            "rate_m3_day": 58.473
+          }
+        ],
+        "rate_m3_day": 58.473,
+        "start_day": 4125.09,
+        "duration_days": 892.412,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 10.27,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4135.187,
+            "duration_days": 458.954,
+            "rate_m3_day": 39.189
+          }
+        ],
+        "rate_m3_day": 39.189,
+        "start_day": 4135.187,
+        "duration_days": 458.954,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_22_single_well",
+    "family": "single_well",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P006",
+        "x": 440.0,
+        "y": 290.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 17.611,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 531.943,
+            "rate_m3_day": 85.066
+          }
+        ],
+        "rate_m3_day": 85.066,
+        "start_day": 3400.0,
+        "duration_days": 531.943,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P004",
+        "x": 440.0,
+        "y": 200.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 13.899,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 448.351,
+            "rate_m3_day": 61.868
+          },
+          {
+            "start_day": 3244.919,
+            "duration_days": 205.486,
+            "rate_m3_day": 31.739
+          }
+        ],
+        "rate_m3_day": 61.868,
+        "start_day": 2920.0,
+        "duration_days": 448.351,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 9.343,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 371.21,
+            "rate_m3_day": 33.391
+          }
+        ],
+        "rate_m3_day": 33.391,
+        "start_day": 3100.0,
+        "duration_days": 371.21,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_23_overpump",
+    "family": "overpump",
+    "kind": "random",
+    "actions": []
+  },
+  {
+    "name": "random_24_single_well",
+    "family": "single_well",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 17.016,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 793.32,
+            "rate_m3_day": 81.352
+          }
+        ],
+        "rate_m3_day": 81.352,
+        "start_day": 4300.0,
+        "duration_days": 793.32,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P006",
+        "x": 440.0,
+        "y": 290.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 20.019,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 696.517,
+            "rate_m3_day": 100.12
+          }
+        ],
+        "rate_m3_day": 100.12,
+        "start_day": 3400.0,
+        "duration_days": 696.517,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "random_25_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 8.826,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4224.399,
+            "duration_days": 351.353,
+            "rate_m3_day": 30.165
+          }
+        ],
+        "rate_m3_day": 30.165,
+        "start_day": 4224.399,
+        "duration_days": 351.353,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P014",
+        "x": 720.0,
+        "y": 245.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 10.437,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4361.562,
+            "duration_days": 295.845,
+            "rate_m3_day": 40.231
+          }
+        ],
+        "rate_m3_day": 40.231,
+        "start_day": 4361.562,
+        "duration_days": 295.845,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 16.675,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4362.89,
+            "duration_days": 505.814,
+            "rate_m3_day": 79.217
+          },
+          {
+            "start_day": 4678.021,
+            "duration_days": 540.99,
+            "rate_m3_day": 69.115
+          },
+          {
+            "start_day": 4990.0,
+            "duration_days": 841.32,
+            "rate_m3_day": 24.589
+          }
+        ],
+        "rate_m3_day": 79.217,
+        "start_day": 4362.89,
+        "duration_days": 505.814,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 7.958,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4759.642,
+            "duration_days": 274.596,
+            "rate_m3_day": 24.739
+          }
+        ],
+        "rate_m3_day": 24.739,
+        "start_day": 4759.642,
+        "duration_days": 274.596,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 13.21,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4667.401,
+            "duration_days": 606.124,
+            "rate_m3_day": 30.609
+          },
+          {
+            "start_day": 4990.0,
+            "duration_days": 376.411,
+            "rate_m3_day": 57.563
+          }
+        ],
+        "rate_m3_day": 30.609,
+        "start_day": 4667.401,
+        "duration_days": 606.124,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 14.96,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4661.554,
+            "duration_days": 705.476,
+            "rate_m3_day": 59.965
+          },
+          {
+            "start_day": 4892.512,
+            "duration_days": 564.371,
+            "rate_m3_day": 68.501
+          }
+        ],
+        "rate_m3_day": 59.965,
+        "start_day": 4661.554,
+        "duration_days": 705.476,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_26_pulse_pumping",
+    "family": "pulse_pumping",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P004",
+        "x": 440.0,
+        "y": 200.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 17.039,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 139.705,
+            "rate_m3_day": 81.492
+          },
+          {
+            "start_day": 3322.768,
+            "duration_days": 94.177,
+            "rate_m3_day": 44.404
+          }
+        ],
+        "rate_m3_day": 81.492,
+        "start_day": 3100.0,
+        "duration_days": 139.705,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_27_single_well",
+    "family": "single_well",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P006",
+        "x": 440.0,
+        "y": 290.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 18.413,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 512.365,
+            "rate_m3_day": 90.084
+          }
+        ],
+        "rate_m3_day": 90.084,
+        "start_day": 3850.0,
+        "duration_days": 512.365,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_28_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P001",
+        "x": 360.0,
+        "y": 200.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 9.349,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 294.045,
+            "rate_m3_day": 33.433
+          }
+        ],
+        "rate_m3_day": 33.433,
+        "start_day": 2920.0,
+        "duration_days": 294.045,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 14.625,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 548.506,
+            "rate_m3_day": 66.408
+          }
+        ],
+        "rate_m3_day": 66.408,
+        "start_day": 4680.0,
+        "duration_days": 548.506,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P006",
+        "x": 440.0,
+        "y": 290.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 13.677,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 296.633,
+            "rate_m3_day": 60.483
+          },
+          {
+            "start_day": 4269.747,
+            "duration_days": 245.394,
+            "rate_m3_day": 52.946
+          }
+        ],
+        "rate_m3_day": 60.483,
+        "start_day": 3850.0,
+        "duration_days": 296.633,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P012",
+        "x": 610.0,
+        "y": 290.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 16.891,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 473.346,
+            "rate_m3_day": 80.567
+          }
+        ],
+        "rate_m3_day": 80.567,
+        "start_day": 4300.0,
+        "duration_days": 473.346,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_29_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 8.2,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 513.997,
+            "rate_m3_day": 26.253
+          }
+        ],
+        "rate_m3_day": 26.253,
+        "start_day": 3400.0,
+        "duration_days": 513.997,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P001",
+        "x": 360.0,
+        "y": 200.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 21.485,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 237.568,
+            "rate_m3_day": 109.282
+          },
+          {
+            "start_day": 3768.105,
+            "duration_days": 924.067,
+            "rate_m3_day": 74.371
+          }
+        ],
+        "rate_m3_day": 109.282,
+        "start_day": 3400.0,
+        "duration_days": 237.568,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 16.594,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3040.0,
+            "duration_days": 633.223,
+            "rate_m3_day": 58.33
+          },
+          {
+            "start_day": 3130.589,
+            "duration_days": 806.621,
+            "rate_m3_day": 78.714
+          },
+          {
+            "start_day": 3690.493,
+            "duration_days": 714.47,
+            "rate_m3_day": 75.698
+          }
+        ],
+        "rate_m3_day": 58.33,
+        "start_day": 3040.0,
+        "duration_days": 633.223,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "random_30_staggered",
+    "family": "staggered",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P012",
+        "x": 610.0,
+        "y": 290.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 21.409,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 245.809,
+            "rate_m3_day": 108.809
+          },
+          {
+            "start_day": 3323.254,
+            "duration_days": 594.827,
+            "rate_m3_day": 33.961
+          }
+        ],
+        "rate_m3_day": 108.809,
+        "start_day": 3100.0,
+        "duration_days": 245.809,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 12.674,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 340.246,
+            "rate_m3_day": 54.21
+          }
+        ],
+        "rate_m3_day": 54.21,
+        "start_day": 3400.0,
+        "duration_days": 340.246,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_31_pulse_pumping",
+    "family": "pulse_pumping",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P014",
+        "x": 720.0,
+        "y": 245.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 17.587,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3040.0,
+            "duration_days": 280.846,
+            "rate_m3_day": 75.007
+          },
+          {
+            "start_day": 3158.808,
+            "duration_days": 92.822,
+            "rate_m3_day": 84.919
+          }
+        ],
+        "rate_m3_day": 75.007,
+        "start_day": 3040.0,
+        "duration_days": 280.846,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P009",
+        "x": 520.0,
+        "y": 290.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 21.361,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 335.857,
+            "rate_m3_day": 108.506
+          },
+          {
+            "start_day": 4872.588,
+            "duration_days": 318.471,
+            "rate_m3_day": 75.233
+          }
+        ],
+        "rate_m3_day": 108.506,
+        "start_day": 4680.0,
+        "duration_days": 335.857,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 11.22,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 116.65,
+            "rate_m3_day": 45.123
+          },
+          {
+            "start_day": 4216.683,
+            "duration_days": 307.371,
+            "rate_m3_day": 30.616
+          }
+        ],
+        "rate_m3_day": 45.123,
+        "start_day": 3850.0,
+        "duration_days": 116.65,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P010",
+        "x": 610.0,
+        "y": 200.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 22.179,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 145.771,
+            "rate_m3_day": 110.859
+          },
+          {
+            "start_day": 4852.268,
+            "duration_days": 126.57,
+            "rate_m3_day": 113.617
+          }
+        ],
+        "rate_m3_day": 110.859,
+        "start_day": 4680.0,
+        "duration_days": 145.771,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "random_32_two_well_barrier",
+    "family": "two_well_barrier",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P012",
+        "x": 610.0,
+        "y": 290.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 17.124,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 949.011,
+            "rate_m3_day": 82.022
+          },
+          {
+            "start_day": 3324.864,
+            "duration_days": 663.329,
+            "rate_m3_day": 78.397
+          }
+        ],
+        "rate_m3_day": 82.022,
+        "start_day": 3100.0,
+        "duration_days": 949.011,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P007",
+        "x": 520.0,
+        "y": 200.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 17.825,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 351.102,
+            "rate_m3_day": 86.405
+          },
+          {
+            "start_day": 4990.0,
+            "duration_days": 348.208,
+            "rate_m3_day": 41.362
+          }
+        ],
+        "rate_m3_day": 86.405,
+        "start_day": 4680.0,
+        "duration_days": 351.102,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P009",
+        "x": 520.0,
+        "y": 290.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 15.774,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 842.075,
+            "rate_m3_day": 73.59
+          }
+        ],
+        "rate_m3_day": 73.59,
+        "start_day": 4680.0,
+        "duration_days": 842.075,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P010",
+        "x": 610.0,
+        "y": 200.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 18.047,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 494.694,
+            "rate_m3_day": 31.8
+          },
+          {
+            "start_day": 4140.262,
+            "duration_days": 484.135,
+            "rate_m3_day": 87.796
+          }
+        ],
+        "rate_m3_day": 31.8,
+        "start_day": 3850.0,
+        "duration_days": 494.694,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_33_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 13.38,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4834.145,
+            "duration_days": 381.87,
+            "rate_m3_day": 58.626
+          },
+          {
+            "start_day": 4990.0,
+            "duration_days": 471.895,
+            "rate_m3_day": 43.578
+          }
+        ],
+        "rate_m3_day": 58.626,
+        "start_day": 4834.145,
+        "duration_days": 381.87,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 16.88,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4254.513,
+            "duration_days": 378.605,
+            "rate_m3_day": 80.501
+          }
+        ],
+        "rate_m3_day": 80.501,
+        "start_day": 4254.513,
+        "duration_days": 378.605,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_34_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": []
+  },
+  {
+    "name": "random_35_single_well",
+    "family": "single_well",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 12.915,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 415.451,
+            "rate_m3_day": 55.719
+          }
+        ],
+        "rate_m3_day": 55.719,
+        "start_day": 3850.0,
+        "duration_days": 415.451,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P005",
+        "x": 440.0,
+        "y": 245.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 19.639,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 629.811,
+            "rate_m3_day": 97.741
+          },
+          {
+            "start_day": 4988.213,
+            "duration_days": 705.173,
+            "rate_m3_day": 60.397
+          }
+        ],
+        "rate_m3_day": 97.741,
+        "start_day": 4680.0,
+        "duration_days": 629.811,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P011",
+        "x": 610.0,
+        "y": 245.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 20.366,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 804.269,
+            "rate_m3_day": 102.286
+          },
+          {
+            "start_day": 4037.336,
+            "duration_days": 636.604,
+            "rate_m3_day": 92.619
+          },
+          {
+            "start_day": 4353.982,
+            "duration_days": 181.611,
+            "rate_m3_day": 94.998
+          }
+        ],
+        "rate_m3_day": 102.286,
+        "start_day": 3850.0,
+        "duration_days": 804.269,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "random_36_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "random",
+    "actions": []
+  },
+  {
+    "name": "random_37_single_well",
+    "family": "single_well",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P002",
+        "x": 360.0,
+        "y": 245.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 12.824,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 761.788,
+            "rate_m3_day": 55.153
+          }
+        ],
+        "rate_m3_day": 55.153,
+        "start_day": 3850.0,
+        "duration_days": 761.788,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_38_two_well_barrier",
+    "family": "two_well_barrier",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P012",
+        "x": 610.0,
+        "y": 290.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 13.568,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 273.037,
+            "rate_m3_day": 59.8
+          }
+        ],
+        "rate_m3_day": 59.8,
+        "start_day": 4680.0,
+        "duration_days": 273.037,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P011",
+        "x": 610.0,
+        "y": 245.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 21.49,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 438.135,
+            "rate_m3_day": 109.31
+          }
+        ],
+        "rate_m3_day": 109.31,
+        "start_day": 2920.0,
+        "duration_days": 438.135,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P010",
+        "x": 610.0,
+        "y": 200.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 18.295,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 810.537,
+            "rate_m3_day": 89.342
+          },
+          {
+            "start_day": 4869.156,
+            "duration_days": 497.842,
+            "rate_m3_day": 52.965
+          }
+        ],
+        "rate_m3_day": 89.342,
+        "start_day": 4680.0,
+        "duration_days": 810.537,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_39_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 17.591,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4519.329,
+            "duration_days": 562.733,
+            "rate_m3_day": 84.942
+          },
+          {
+            "start_day": 4707.951,
+            "duration_days": 885.438,
+            "rate_m3_day": 45.55
+          },
+          {
+            "start_day": 4977.487,
+            "duration_days": 771.764,
+            "rate_m3_day": 60.976
+          }
+        ],
+        "rate_m3_day": 84.942,
+        "start_day": 4519.329,
+        "duration_days": 562.733,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 10.42,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4199.726,
+            "duration_days": 394.507,
+            "rate_m3_day": 36.933
+          },
+          {
+            "start_day": 4395.608,
+            "duration_days": 490.221,
+            "rate_m3_day": 40.126
+          }
+        ],
+        "rate_m3_day": 36.933,
+        "start_day": 4199.726,
+        "duration_days": 394.507,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P014",
+        "x": 720.0,
+        "y": 245.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 9.664,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4647.855,
+            "duration_days": 875.603,
+            "rate_m3_day": 35.403
+          }
+        ],
+        "rate_m3_day": 35.403,
+        "start_day": 4647.855,
+        "duration_days": 875.603,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "random_40_pulse_pumping",
+    "family": "pulse_pumping",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P012",
+        "x": 610.0,
+        "y": 290.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 11.263,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 128.821,
+            "rate_m3_day": 33.746
+          },
+          {
+            "start_day": 3331.438,
+            "duration_days": 86.222,
+            "rate_m3_day": 45.394
+          }
+        ],
+        "rate_m3_day": 33.746,
+        "start_day": 3100.0,
+        "duration_days": 128.821,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 14.791,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 108.244,
+            "rate_m3_day": 67.443
+          },
+          {
+            "start_day": 4966.502,
+            "duration_days": 314.921,
+            "rate_m3_day": 32.831
+          }
+        ],
+        "rate_m3_day": 67.443,
+        "start_day": 4680.0,
+        "duration_days": 108.244,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_41_overpump",
+    "family": "overpump",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P005",
+        "x": 440.0,
+        "y": 245.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 22.012,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 411.157,
+            "rate_m3_day": 112.578
+          }
+        ],
+        "rate_m3_day": 112.578,
+        "start_day": 3400.0,
+        "duration_days": 411.157,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "random_42_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 7.98,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4282.343,
+            "duration_days": 865.387,
+            "rate_m3_day": 23.237
+          },
+          {
+            "start_day": 4501.891,
+            "duration_days": 850.463,
+            "rate_m3_day": 24.875
+          }
+        ],
+        "rate_m3_day": 23.237,
+        "start_day": 4282.343,
+        "duration_days": 865.387,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 16.006,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4800.264,
+            "duration_days": 233.87,
+            "rate_m3_day": 48.235
+          },
+          {
+            "start_day": 4990.0,
+            "duration_days": 759.002,
+            "rate_m3_day": 75.038
+          }
+        ],
+        "rate_m3_day": 48.235,
+        "start_day": 4800.264,
+        "duration_days": 233.87,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 13.495,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4749.84,
+            "duration_days": 868.374,
+            "rate_m3_day": 59.344
+          }
+        ],
+        "rate_m3_day": 59.344,
+        "start_day": 4749.84,
+        "duration_days": 868.374,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "random_43_overpump",
+    "family": "overpump",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P002",
+        "x": 360.0,
+        "y": 245.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 22.681,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 621.308,
+            "rate_m3_day": 116.754
+          },
+          {
+            "start_day": 4853.016,
+            "duration_days": 974.846,
+            "rate_m3_day": 99.284
+          }
+        ],
+        "rate_m3_day": 116.754,
+        "start_day": 4680.0,
+        "duration_days": 621.308,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P009",
+        "x": 520.0,
+        "y": 290.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 21.452,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 721.895,
+            "rate_m3_day": 109.078
+          },
+          {
+            "start_day": 4550.209,
+            "duration_days": 978.755,
+            "rate_m3_day": 105.502
+          }
+        ],
+        "rate_m3_day": 109.078,
+        "start_day": 4300.0,
+        "duration_days": 721.895,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P004",
+        "x": 440.0,
+        "y": 200.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 21.27,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 706.85,
+            "rate_m3_day": 107.939
+          }
+        ],
+        "rate_m3_day": 107.939,
+        "start_day": 2920.0,
+        "duration_days": 706.85,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "random_44_late_response",
+    "family": "late_response",
+    "kind": "random",
+    "actions": [
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 18.105,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4673.969,
+            "duration_days": 766.23,
+            "rate_m3_day": 88.159
+          },
+          {
+            "start_day": 4897.858,
+            "duration_days": 181.622,
+            "rate_m3_day": 77.199
+          }
+        ],
+        "rate_m3_day": 88.159,
+        "start_day": 4673.969,
+        "duration_days": 766.23,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "stress_00_overpump",
+    "family": "overpump",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P008",
+        "x": 520.0,
+        "y": 245.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 20.377,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 726.715,
+            "rate_m3_day": 102.357
+          }
+        ],
+        "rate_m3_day": 102.357,
+        "start_day": 3850.0,
+        "duration_days": 726.715,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "stress_01_pulse_pumping",
+    "family": "pulse_pumping",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 17.459,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 274.704,
+            "rate_m3_day": 83.69
+          },
+          {
+            "start_day": 4870.215,
+            "duration_days": 185.532,
+            "rate_m3_day": 57.871
+          },
+          {
+            "start_day": 4990.0,
+            "duration_days": 70.991,
+            "rate_m3_day": 84.116
+          }
+        ],
+        "rate_m3_day": 83.69,
+        "start_day": 4680.0,
+        "duration_days": 274.704,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P012",
+        "x": 610.0,
+        "y": 290.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 21.81,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 204.308,
+            "rate_m3_day": 62.166
+          },
+          {
+            "start_day": 4485.064,
+            "duration_days": 258.597,
+            "rate_m3_day": 81.136
+          },
+          {
+            "start_day": 4847.121,
+            "duration_days": 183.964,
+            "rate_m3_day": 111.31
+          }
+        ],
+        "rate_m3_day": 62.166,
+        "start_day": 4300.0,
+        "duration_days": 204.308,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "stress_02_late_response",
+    "family": "late_response",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 14.127,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4238.678,
+            "duration_days": 444.872,
+            "rate_m3_day": 63.292
+          }
+        ],
+        "rate_m3_day": 63.292,
+        "start_day": 4238.678,
+        "duration_days": 444.872,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 14.105,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4292.172,
+            "duration_days": 588.801,
+            "rate_m3_day": 33.648
+          },
+          {
+            "start_day": 4670.379,
+            "duration_days": 974.481,
+            "rate_m3_day": 48.363
+          },
+          {
+            "start_day": 4948.961,
+            "duration_days": 678.182,
+            "rate_m3_day": 63.155
+          }
+        ],
+        "rate_m3_day": 33.648,
+        "start_day": 4292.172,
+        "duration_days": 588.801,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "stress_03_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 13.287,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 665.502,
+            "rate_m3_day": 24.613
+          },
+          {
+            "start_day": 4578.978,
+            "duration_days": 766.228,
+            "rate_m3_day": 58.044
+          },
+          {
+            "start_day": 4990.0,
+            "duration_days": 827.706,
+            "rate_m3_day": 34.551
+          }
+        ],
+        "rate_m3_day": 24.613,
+        "start_day": 4300.0,
+        "duration_days": 665.502,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P009",
+        "x": 520.0,
+        "y": 290.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 15.167,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 568.22,
+            "rate_m3_day": 52.948
+          },
+          {
+            "start_day": 3458.02,
+            "duration_days": 927.767,
+            "rate_m3_day": 69.794
+          }
+        ],
+        "rate_m3_day": 52.948,
+        "start_day": 3100.0,
+        "duration_days": 568.22,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 17.883,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 972.26,
+            "rate_m3_day": 84.826
+          },
+          {
+            "start_day": 3411.534,
+            "duration_days": 409.292,
+            "rate_m3_day": 86.768
+          }
+        ],
+        "rate_m3_day": 84.826,
+        "start_day": 3100.0,
+        "duration_days": 972.26,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P012",
+        "x": 610.0,
+        "y": 290.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 14.784,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 550.425,
+            "rate_m3_day": 67.401
+          }
+        ],
+        "rate_m3_day": 67.401,
+        "start_day": 4680.0,
+        "duration_days": 550.425,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "stress_04_overpump",
+    "family": "overpump",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P006",
+        "x": 440.0,
+        "y": 290.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 20.676,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 820.099,
+            "rate_m3_day": 104.226
+          },
+          {
+            "start_day": 4689.687,
+            "duration_days": 691.702,
+            "rate_m3_day": 99.451
+          }
+        ],
+        "rate_m3_day": 104.226,
+        "start_day": 4300.0,
+        "duration_days": 820.099,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P002",
+        "x": 360.0,
+        "y": 245.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 21.371,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 673.365,
+            "rate_m3_day": 101.219
+          },
+          {
+            "start_day": 3356.382,
+            "duration_days": 767.509,
+            "rate_m3_day": 108.571
+          }
+        ],
+        "rate_m3_day": 101.219,
+        "start_day": 3100.0,
+        "duration_days": 673.365,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P001",
+        "x": 360.0,
+        "y": 200.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 19.652,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 855.714,
+            "rate_m3_day": 93.999
+          },
+          {
+            "start_day": 4246.851,
+            "duration_days": 741.67,
+            "rate_m3_day": 97.828
+          }
+        ],
+        "rate_m3_day": 93.999,
+        "start_day": 3850.0,
+        "duration_days": 855.714,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P010",
+        "x": 610.0,
+        "y": 200.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 20.019,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 810.506,
+            "rate_m3_day": 100.12
+          }
+        ],
+        "rate_m3_day": 100.12,
+        "start_day": 2920.0,
+        "duration_days": 810.506,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "stress_05_pulse_pumping",
+    "family": "pulse_pumping",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 12.66,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 147.096,
+            "rate_m3_day": 32.545
+          },
+          {
+            "start_day": 3358.462,
+            "duration_days": 251.069,
+            "rate_m3_day": 54.125
+          },
+          {
+            "start_day": 3889.623,
+            "duration_days": 148.401,
+            "rate_m3_day": 23.202
+          }
+        ],
+        "rate_m3_day": 32.545,
+        "start_day": 3100.0,
+        "duration_days": 147.096,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P012",
+        "x": 610.0,
+        "y": 290.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 19.427,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 102.335,
+            "rate_m3_day": 74.009
+          },
+          {
+            "start_day": 3109.368,
+            "duration_days": 217.701,
+            "rate_m3_day": 37.24
+          },
+          {
+            "start_day": 3375.926,
+            "duration_days": 359.978,
+            "rate_m3_day": 96.416
+          }
+        ],
+        "rate_m3_day": 74.009,
+        "start_day": 2920.0,
+        "duration_days": 102.335,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "stress_06_late_response",
+    "family": "late_response",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P017",
+        "x": 840.0,
+        "y": 245.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 18.096,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4280.408,
+            "duration_days": 813.5,
+            "rate_m3_day": 82.507
+          },
+          {
+            "start_day": 4633.179,
+            "duration_days": 685.463,
+            "rate_m3_day": 68.078
+          },
+          {
+            "start_day": 4989.63,
+            "duration_days": 354.003,
+            "rate_m3_day": 88.101
+          }
+        ],
+        "rate_m3_day": 82.507,
+        "start_day": 4280.408,
+        "duration_days": 813.5,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 16.144,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4678.446,
+            "duration_days": 824.49,
+            "rate_m3_day": 75.899
+          }
+        ],
+        "rate_m3_day": 75.899,
+        "start_day": 4678.446,
+        "duration_days": 824.49,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P014",
+        "x": 720.0,
+        "y": 245.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 16.738,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4803.041,
+            "duration_days": 699.832,
+            "rate_m3_day": 79.611
+          }
+        ],
+        "rate_m3_day": 79.611,
+        "start_day": 4803.041,
+        "duration_days": 699.832,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 13.173,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4751.591,
+            "duration_days": 326.625,
+            "rate_m3_day": 57.334
+          }
+        ],
+        "rate_m3_day": 57.334,
+        "start_day": 4751.591,
+        "duration_days": 326.625,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "stress_07_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P010",
+        "x": 610.0,
+        "y": 200.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 22.372,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 373.316,
+            "rate_m3_day": 102.715
+          },
+          {
+            "start_day": 4555.336,
+            "duration_days": 894.528,
+            "rate_m3_day": 114.826
+          }
+        ],
+        "rate_m3_day": 102.715,
+        "start_day": 4300.0,
+        "duration_days": 373.316,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P006",
+        "x": 440.0,
+        "y": 290.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 14.358,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 604.001,
+            "rate_m3_day": 64.735
+          }
+        ],
+        "rate_m3_day": 64.735,
+        "start_day": 3400.0,
+        "duration_days": 604.001,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P001",
+        "x": 360.0,
+        "y": 200.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 14.969,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 473.372,
+            "rate_m3_day": 50.114
+          },
+          {
+            "start_day": 3647.06,
+            "duration_days": 729.208,
+            "rate_m3_day": 68.557
+          }
+        ],
+        "rate_m3_day": 50.114,
+        "start_day": 3400.0,
+        "duration_days": 473.372,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P007",
+        "x": 520.0,
+        "y": 200.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 18.435,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 507.062,
+            "rate_m3_day": 90.22
+          }
+        ],
+        "rate_m3_day": 90.22,
+        "start_day": 2920.0,
+        "duration_days": 507.062,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P012",
+        "x": 610.0,
+        "y": 290.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 20.483,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 505.726,
+            "rate_m3_day": 103.021
+          },
+          {
+            "start_day": 3168.936,
+            "duration_days": 796.109,
+            "rate_m3_day": 34.45
+          }
+        ],
+        "rate_m3_day": 103.021,
+        "start_day": 2920.0,
+        "duration_days": 505.726,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 16.346,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 656.783,
+            "rate_m3_day": 77.163
+          },
+          {
+            "start_day": 4222.141,
+            "duration_days": 466.573,
+            "rate_m3_day": 75.42
+          }
+        ],
+        "rate_m3_day": 77.163,
+        "start_day": 3850.0,
+        "duration_days": 656.783,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "stress_08_overpump",
+    "family": "overpump",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P009",
+        "x": 520.0,
+        "y": 290.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 18.984,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 506.084,
+            "rate_m3_day": 93.649
+          }
+        ],
+        "rate_m3_day": 93.649,
+        "start_day": 3400.0,
+        "duration_days": 506.084,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  },
+  {
+    "name": "stress_09_pulse_pumping",
+    "family": "pulse_pumping",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P009",
+        "x": 520.0,
+        "y": 290.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 17.801,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 109.051,
+            "rate_m3_day": 47.12
+          },
+          {
+            "start_day": 3230.118,
+            "duration_days": 147.709,
+            "rate_m3_day": 86.256
+          },
+          {
+            "start_day": 3605.282,
+            "duration_days": 116.635,
+            "rate_m3_day": 66.327
+          }
+        ],
+        "rate_m3_day": 47.12,
+        "start_day": 2920.0,
+        "duration_days": 109.051,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "stress_10_late_response",
+    "family": "late_response",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P016",
+        "x": 840.0,
+        "y": 200.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 16.149,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4832.685,
+            "duration_days": 792.776,
+            "rate_m3_day": 75.929
+          }
+        ],
+        "rate_m3_day": 75.929,
+        "start_day": 4832.685,
+        "duration_days": 792.776,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 16.34,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4787.323,
+            "duration_days": 643.04,
+            "rate_m3_day": 77.126
+          }
+        ],
+        "rate_m3_day": 77.126,
+        "start_day": 4787.323,
+        "duration_days": 643.04,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "stress_11_off_axis_capture",
+    "family": "off_axis_capture",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P003",
+        "x": 360.0,
+        "y": 290.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 12.554,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 545.332,
+            "rate_m3_day": 53.465
+          }
+        ],
+        "rate_m3_day": 53.465,
+        "start_day": 3850.0,
+        "duration_days": 545.332,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P001",
+        "x": 360.0,
+        "y": 200.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 16.12,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 566.183,
+            "rate_m3_day": 75.751
+          }
+        ],
+        "rate_m3_day": 75.751,
+        "start_day": 3100.0,
+        "duration_days": 566.183,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 15.778,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 690.117,
+            "rate_m3_day": 73.613
+          }
+        ],
+        "rate_m3_day": 73.613,
+        "start_day": 4680.0,
+        "duration_days": 690.117,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 13.307,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 629.385,
+            "rate_m3_day": 58.168
+          }
+        ],
+        "rate_m3_day": 58.168,
+        "start_day": 4300.0,
+        "duration_days": 629.385,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P007",
+        "x": 520.0,
+        "y": 200.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 22.522,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 911.369,
+            "rate_m3_day": 115.761
+          },
+          {
+            "start_day": 3210.088,
+            "duration_days": 293.873,
+            "rate_m3_day": 52.768
+          },
+          {
+            "start_day": 3421.123,
+            "duration_days": 290.743,
+            "rate_m3_day": 59.839
+          }
+        ],
+        "rate_m3_day": 115.761,
+        "start_day": 2920.0,
+        "duration_days": 911.369,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P015",
+        "x": 720.0,
+        "y": 290.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 15.811,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3400.0,
+            "duration_days": 492.078,
+            "rate_m3_day": 73.818
+          }
+        ],
+        "rate_m3_day": 73.818,
+        "start_day": 3400.0,
+        "duration_days": 492.078,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "stress_12_overpump",
+    "family": "overpump",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P009",
+        "x": 520.0,
+        "y": 290.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 19.725,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 701.346,
+            "rate_m3_day": 98.28
+          }
+        ],
+        "rate_m3_day": 98.28,
+        "start_day": 4300.0,
+        "duration_days": 701.346,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P005",
+        "x": 440.0,
+        "y": 245.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 20.067,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 235.858,
+            "rate_m3_day": 100.421
+          }
+        ],
+        "rate_m3_day": 100.421,
+        "start_day": 3100.0,
+        "duration_days": 235.858,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P004",
+        "x": 440.0,
+        "y": 200.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 20.496,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 598.902,
+            "rate_m3_day": 101.707
+          },
+          {
+            "start_day": 4616.337,
+            "duration_days": 831.458,
+            "rate_m3_day": 103.103
+          }
+        ],
+        "rate_m3_day": 101.707,
+        "start_day": 4300.0,
+        "duration_days": 598.902,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P010",
+        "x": 610.0,
+        "y": 200.0,
+        "z": 221.26904761904763,
+        "screen_depth_m": 0.7309523809523739,
+        "pump_power_kw": 21.621,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4680.0,
+            "duration_days": 676.281,
+            "rate_m3_day": 110.133
+          }
+        ],
+        "rate_m3_day": 110.133,
+        "start_day": 4680.0,
+        "duration_days": 676.281,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P007",
+        "x": 520.0,
+        "y": 200.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 20.25,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 267.017,
+            "rate_m3_day": 101.56
+          },
+          {
+            "start_day": 4536.743,
+            "duration_days": 282.083,
+            "rate_m3_day": 96.754
+          }
+        ],
+        "rate_m3_day": 101.56,
+        "start_day": 4300.0,
+        "duration_days": 267.017,
+        "treatment_efficiency": 0.92
+      },
+      {
+        "well_id": "P001",
+        "x": 360.0,
+        "y": 200.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 20.94,
+        "treatment_type": "T3",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 897.011,
+            "rate_m3_day": 105.874
+          }
+        ],
+        "rate_m3_day": 105.874,
+        "start_day": 3100.0,
+        "duration_days": 897.011,
+        "treatment_efficiency": 0.92
+      }
+    ]
+  },
+  {
+    "name": "stress_13_pulse_pumping",
+    "family": "pulse_pumping",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P008",
+        "x": 520.0,
+        "y": 245.0,
+        "z": 221.22857142857143,
+        "screen_depth_m": 0.7714285714285722,
+        "pump_power_kw": 19.387,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3100.0,
+            "duration_days": 312.321,
+            "rate_m3_day": 66.028
+          },
+          {
+            "start_day": 3411.309,
+            "duration_days": 293.332,
+            "rate_m3_day": 68.433
+          },
+          {
+            "start_day": 3487.403,
+            "duration_days": 329.662,
+            "rate_m3_day": 96.169
+          }
+        ],
+        "rate_m3_day": 66.028,
+        "start_day": 3100.0,
+        "duration_days": 312.321,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P018",
+        "x": 840.0,
+        "y": 290.0,
+        "z": 221.3190476190476,
+        "screen_depth_m": 0.680952380952391,
+        "pump_power_kw": 15.596,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 3850.0,
+            "duration_days": 93.322,
+            "rate_m3_day": 72.478
+          },
+          {
+            "start_day": 4114.875,
+            "duration_days": 100.355,
+            "rate_m3_day": 39.47
+          },
+          {
+            "start_day": 4281.564,
+            "duration_days": 222.858,
+            "rate_m3_day": 68.113
+          }
+        ],
+        "rate_m3_day": 72.478,
+        "start_day": 3850.0,
+        "duration_days": 93.322,
+        "treatment_efficiency": 0.65
+      },
+      {
+        "well_id": "P004",
+        "x": 440.0,
+        "y": 200.0,
+        "z": 221.19047619047618,
+        "screen_depth_m": 0.8095238095238244,
+        "pump_power_kw": 21.171,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 2920.0,
+            "duration_days": 150.417,
+            "rate_m3_day": 107.318
+          },
+          {
+            "start_day": 3304.323,
+            "duration_days": 303.169,
+            "rate_m3_day": 45.06
+          },
+          {
+            "start_day": 3552.223,
+            "duration_days": 174.127,
+            "rate_m3_day": 97.024
+          }
+        ],
+        "rate_m3_day": 107.318,
+        "start_day": 2920.0,
+        "duration_days": 150.417,
+        "treatment_efficiency": 0.8
+      },
+      {
+        "well_id": "P003",
+        "x": 360.0,
+        "y": 290.0,
+        "z": 221.1238095238095,
+        "screen_depth_m": 0.8761904761904873,
+        "pump_power_kw": 20.209,
+        "treatment_type": "T1",
+        "schedule": [
+          {
+            "start_day": 4300.0,
+            "duration_days": 220.173,
+            "rate_m3_day": 101.307
+          },
+          {
+            "start_day": 4500.296,
+            "duration_days": 295.751,
+            "rate_m3_day": 58.672
+          },
+          {
+            "start_day": 4751.921,
+            "duration_days": 127.831,
+            "rate_m3_day": 49.404
+          }
+        ],
+        "rate_m3_day": 101.307,
+        "start_day": 4300.0,
+        "duration_days": 220.173,
+        "treatment_efficiency": 0.65
+      }
+    ]
+  },
+  {
+    "name": "stress_14_late_response",
+    "family": "late_response",
+    "kind": "stress",
+    "actions": [
+      {
+        "well_id": "P013",
+        "x": 720.0,
+        "y": 200.0,
+        "z": 221.2952380952381,
+        "screen_depth_m": 0.7047619047619094,
+        "pump_power_kw": 9.21,
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 4548.657,
+            "duration_days": 430.725,
+            "rate_m3_day": 32.563
+          }
+        ],
+        "rate_m3_day": 32.563,
+        "start_day": 4548.657,
+        "duration_days": 430.725,
+        "treatment_efficiency": 0.8
+      }
+    ]
+  }
+]

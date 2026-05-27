@@ -1,0 +1,105 @@
+{
+  "schema_version": "borden_emergency_modeling.v1",
+  "problem_formulation": {
+    "decision_variables": {
+      "well_selection": "binary",
+      "rate_m3_day": "continuous per phase",
+      "start_day": "continuous or integer",
+      "duration_days": "continuous or integer",
+      "treatment_type": "discrete T1/T2/T3"
+    },
+    "objectives": [
+      "minimize_total_cost",
+      "minimize_residual_contaminant_mass",
+      "minimize_receptor_exceedance_risk",
+      "maximize_late_time_compliance"
+    ],
+    "constraints": [
+      "budget",
+      "well_rate_bounds",
+      "time_window_bounds",
+      "max_active_wells",
+      "total_pumping_capacity",
+      "treatment_capacity",
+      "minimum_duration",
+      "physical_validity"
+    ]
+  },
+  "model_summary": {
+    "transport_model": "velocity-perturbed ADE / finite-difference ADE / capture-zone surrogate",
+    "pumping_perturbation": "describe how extraction changes groundwater velocity, capture, arrival time, and removal",
+    "optimization_algorithm": "constrained multi-objective optimizer used to choose the dispatch plan"
+  },
+  "objective_weights": {
+    "total_cost": 0.25,
+    "plume_mass": 0.35,
+    "receptor_exceedance": 0.25,
+    "late_time_risk": 0.15
+  },
+  "constraints": {
+    "budget_usd": 1250000.0,
+    "max_active_wells": 6,
+    "rate_bounds_m3_day": [
+      0.0,
+      140.0
+    ],
+    "start_day_bounds": [
+      2920.0,
+      5110.0
+    ],
+    "duration_day_bounds": [
+      30.0,
+      1460.0
+    ],
+    "pump_power_kw_positive": true
+  },
+  "pareto_plans": [
+    {
+      "plan_id": "p01_low_cost",
+      "actions": [
+        {
+          "well_id": "P001",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "screen_depth_m": 0.0,
+          "treatment_type": "T2",
+          "schedule": [
+            {
+              "start_day": 0.0,
+              "duration_days": 0.0,
+              "rate_m3_day": 0.0
+            }
+          ],
+          "rate_m3_day": 0.0,
+          "pump_power_kw": 0.0,
+          "start_day": 0.0,
+          "duration_days": 0.0,
+          "treatment_efficiency": 0.0
+        }
+      ],
+      "predicted_objectives": {
+        "total_cost_usd": 0.0,
+        "residual_mass": 0.0,
+        "risk_exceedance": 0.0,
+        "late_noncompliance": 0.0
+      }
+    }
+  ],
+  "selected_plan_id": "p01_low_cost",
+  "actions": [],
+  "method": "brief description of modeling and constrained multi-objective optimization method",
+  "optimization_report": {
+    "algorithm": "NSGA-II / MOEA-D / random+local search / custom",
+    "population_size": 0,
+    "generations": 0,
+    "constraint_handling": "feasibility-first / penalty / repair",
+    "pareto_selection_rule": "knee / robust / budget-aware"
+  },
+  "optimization_summary": {
+    "estimated_total_cost_usd": 0.0,
+    "estimated_plume_mass_reduction": 0.0,
+    "estimated_receptor_risk_reduction": 0.0,
+    "pareto_or_search_notes": "describe Pareto set, scalarization, constraints, and why this plan was selected"
+  }
+}

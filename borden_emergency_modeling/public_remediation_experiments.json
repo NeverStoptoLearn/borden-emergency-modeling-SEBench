@@ -1,0 +1,62 @@
+[
+  {
+    "experiment_id": "public_no_action",
+    "name": "no_action",
+    "actions": []
+  },
+  {
+    "experiment_id": "public_single_upstream_low",
+    "name": "single upstream low-rate",
+    "actions": [
+      {
+        "well_id": "P004",
+        "rate_m3_day": 35.0,
+        "start_day": 3180.0,
+        "duration_days": 360.0,
+        "treatment_type": "T1"
+      }
+    ]
+  },
+  {
+    "experiment_id": "public_two_well_barrier",
+    "name": "two-well barrier",
+    "actions": [
+      {
+        "well_id": "P007",
+        "rate_m3_day": 64.0,
+        "start_day": 3100.0,
+        "duration_days": 520.0,
+        "treatment_type": "T2"
+      },
+      {
+        "well_id": "P011",
+        "rate_m3_day": 58.0,
+        "start_day": 3330.0,
+        "duration_days": 500.0,
+        "treatment_type": "T2"
+      }
+    ]
+  },
+  {
+    "experiment_id": "public_short_pulse",
+    "name": "short-duration pulse pumping",
+    "actions": [
+      {
+        "well_id": "P009",
+        "treatment_type": "T2",
+        "schedule": [
+          {
+            "start_day": 3060.0,
+            "duration_days": 120.0,
+            "rate_m3_day": 86.0
+          },
+          {
+            "start_day": 3520.0,
+            "duration_days": 150.0,
+            "rate_m3_day": 52.0
+          }
+        ]
+      }
+    ]
+  }
+]

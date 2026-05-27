@@ -1,0 +1,40 @@
+{
+  "total_budget_usd": 1250000.0,
+  "action_window_days": [
+    2920.0,
+    5110.0
+  ],
+  "duration_days": [
+    30.0,
+    1460.0
+  ],
+  "max_active_wells": 6,
+  "total_extraction_limit_m3_day": 260.0,
+  "treatment_capacity_m3_day": 220.0,
+  "max_switches_per_well": 2,
+  "allowed_treatment_types": {
+    "T1": {
+      "efficiency": 0.65,
+      "unit_cost": 0.7,
+      "capacity_m3_day": 120.0
+    },
+    "T2": {
+      "efficiency": 0.8,
+      "unit_cost": 1.0,
+      "capacity_m3_day": 80.0
+    },
+    "T3": {
+      "efficiency": 0.92,
+      "unit_cost": 1.6,
+      "capacity_m3_day": 40.0
+    }
+  },
+  "robust_scenarios_public": [
+    "public_no_action",
+    "public_central_high",
+    "public_two_well_barrier",
+    "public_short_pulse"
+  ],
+  "model_interface": "model.py must define predict_remediation(plan, receptors, times_days, config)",
+  "scoring_curve": "continuous model-gated scoring; scores rounded to 3 decimals"
+}

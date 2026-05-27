@@ -1,0 +1,7 @@
+{
+  "source_notebook": "E:\\study\\FloPy\\code\\CMOPs\\modeling\\borden_adepy_reproduction.ipynb",
+  "adapter": "Borden 3D AdePy rectangular source superposition plus private pump-and-treat perturbation",
+  "public_experiments": 4,
+  "hidden_benchmark_plans": 60,
+  "hidden_scenarios": 4
+}
